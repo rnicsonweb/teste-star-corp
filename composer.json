@@ -1,0 +1,29 @@
+{
+    "name": "rnicsonweb/teste-star-corp",
+    "description": "Test Challenge StarCorp",
+    "authors": [
+        {
+            "name": "Richard Nicson",
+            "email": "rnicsonweb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests/"
+    }
+}
