@@ -1,7 +1,5 @@
 FROM php:7.1-alpine
 
-MAINTAINER Eduardo Ramos <eduardorfreitas93@gmail.com>
-
 WORKDIR /var/www/html
 COPY . .
 
